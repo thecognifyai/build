@@ -9,6 +9,17 @@ export default defineConfig({
   },
   server: {
     port: 5173,
+    host: '0.0.0.0',
+    strictPort: true,
+    hmr: {
+      clientPort: 443,
+      protocol: 'wss'
+    }
+  },
+  preview: {
+    port: 5173,
+    host: '0.0.0.0',
+    strictPort: true
   },
   base: '/',
 })
