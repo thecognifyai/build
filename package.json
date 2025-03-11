@@ -1,18 +1,18 @@
 {
-  "name": "remix-firebase",
+  "name": "remix-app",
   "private": true,
   "type": "module",
+  "sideEffects": false,
   "scripts": {
     "build": "vite build",
-    "dev": "vite",
-    "start": "vite"
+    "dev": "vite dev",
+    "start": "vite preview"
   },
   "dependencies": {
     "@remix-run/node": "^2.0.0",
     "@remix-run/react": "^2.0.0",
-    "@remix-run/serve": "^2.0.0",
-    "firebase": "^10.4.0",
-    "isbot": "^3.7.0",
+    "firebase": "^10.5.0",
+    "isbot": "^3.6.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -23,9 +23,16 @@
     "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5",
+    "tailwindcss": "^3.3.3",
     "typescript": "^5.0.0",
-    "vite": "^5.0.0",
-    "vite-tsconfig-paths": "^4.3.2"
+    "vite": "^4.4.5",
+    "vite-tsconfig-paths": "^4.2.0"
+  },
+  "future": {
+    "v3_fetcherPersist": true,
+    "v3_lazyRouteDiscovery": true,
+    "v3_relativeSplatPath": true,
+    "v3_singleFetch": true,
+    "v3_throwAbortReason": true
   }
 }

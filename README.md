@@ -1,5 +1,7 @@
 # Cognify_V1
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/14b593dc-3d35-4308-8273-4e2c7249e258/deploy-status)](https://app.netlify.com/sites/thecognifyai/deploys)
+
 # Welcome to Remix!
 
 - 📖 [Remix docs](https://remix.run/docs)

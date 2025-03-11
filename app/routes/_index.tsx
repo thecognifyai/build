@@ -1,14 +1,4 @@
-import { useEffect, useState } from "react";
-
 export default function Index() {
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null;
-
   return (
     <div className="h-screen bg-gray-50 dark:bg-gray-900">
       <h1 className="text-3xl font-bold text-center pt-10 text-gray-900 dark:text-gray-100">
